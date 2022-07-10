@@ -11,7 +11,7 @@
       "type": "liquid-ref",
       "settings": {
         "liquid-ref": "Eso va sisas",
-        "liquid-checkbox": true
+        "liquid-checkbox": false
       }
     },
     "1657415978ee97e730": {
