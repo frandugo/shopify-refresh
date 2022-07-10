@@ -12,10 +12,20 @@
       "settings": {
         "liquid-ref": ""
       }
+    },
+    "1657415978ee97e730": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "1657414663b9e923ab"
+    "1657414663b9e923ab",
+    "1657415978ee97e730"
   ]
 }
