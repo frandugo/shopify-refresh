@@ -1,5 +1,9 @@
 <h1>Hello Liquid world - {{ section.settings.liquid-ref }}</h1>
 
+{% if section.settings.liquid-checkbox == true %}
+    <h2>The checkbox is checked</h2>
+{%  endif %}
+
 {% schema %}
 {
     "name": "First section created",
