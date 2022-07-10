@@ -1,6 +1,4 @@
-<h1>Hello Liquid world</h1>
-
-
+<h1>Hello Liquid world - {{ section.settings }}</h1>
 
 {% schema %}
 {
@@ -10,6 +8,11 @@
             "id": "liquid-ref",
             "type": "text",
             "label": "Here put whatever you want!"
+        }
+        {
+            "id": "liquid-checkbox",
+            "type": "checkbox",
+            "label": "Checkbox in Liquid"
         }
     ],
     "templates": ["index", "page", "product"],
