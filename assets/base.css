@@ -1012,6 +1012,11 @@ summary::-webkit-details-marker {
   flex-shrink: 0;
 }
 
+  .blog__item img{
+    object-fit: fill;
+  	width: 100%;
+  }
+  
 @media screen and (min-width: 750px) {
   .grid__item {
     width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
