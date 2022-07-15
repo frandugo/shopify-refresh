@@ -1,9 +1,13 @@
 /* Color custom properties */
 
+.blog__item{
+	font-size: 16px;
+}
+
 .blog__item img{
     object-fit: fill;
   	width: 100%;
-  }
+}
 
 :root,
 .color-background-1 {
